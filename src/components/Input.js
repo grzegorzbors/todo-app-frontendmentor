@@ -6,7 +6,7 @@ const Input = () => {
       <input
         type="text"
         id="new-todo-input"
-        className="input input__lg"
+        className="create__todo"
         name="text"
         autoComplete="off"
         placeholder="Create a new todo..."

@@ -1,0 +1,28 @@
+@import "./variables";
+
+.light__theme {
+  color: $veryDarkGrayishBlueLT;
+
+  &.main__container {
+    &.mobile {
+      background-image: url("../img/bg-mobile-light.jpg");
+
+      .todo__container {
+        width: 90%;
+      }
+    }
+  }
+
+  h1 {
+    color: $veryLightGray;
+  }
+
+  .create__todo {
+    color: $lightGrayishBlueDT;
+  }
+
+  .list__container {
+    width: 100%;
+    height: 100%;
+  }
+}
